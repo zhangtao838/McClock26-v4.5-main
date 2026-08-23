@@ -136,7 +136,6 @@
     if (s) {
         CGFloat row2Y = row1Y + row1H + kRowGap;
         CGFloat row2H = 32.0f;
-        CGRect sf = s.frame;
         s.frame = CGRectMake(innerX, row2Y, innerW, row2H);
         s.autoresizingMask = UIViewAutoresizingNone;
         s.translatesAutoresizingMaskIntoConstraints = YES;
